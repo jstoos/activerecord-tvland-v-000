@@ -1,7 +1,7 @@
 class RemoveCallLetters < ActiveRecord::Migration[4.2]
 
   def change
-    remove
+    remove_column :call_letters, :string
   end
 
 end
