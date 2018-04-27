@@ -1,0 +1,1 @@
+class CreateCatchphrase < ActiveRecord::Migration[4.2]
