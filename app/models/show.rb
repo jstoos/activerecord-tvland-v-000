@@ -3,6 +3,6 @@ class Show < ActiveRecord::Base
 
   def build_network(network)
     self.call_letters
-
+  end
 
 end
