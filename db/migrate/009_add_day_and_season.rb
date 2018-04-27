@@ -1,8 +1,8 @@
 class AddDayAndSeason < ActiveRecord:Migration
 
   def change
-    add_column :show, :day, :string
-    add_column :show, :season, :string
+    add_column :shows, :day, :string
+    add_column :shows, :season, :string
   end
 
 end
