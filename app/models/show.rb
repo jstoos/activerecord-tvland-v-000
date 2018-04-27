@@ -3,7 +3,7 @@ class Show < ActiveRecord::Base
 
 
   def build_network(network)
-    network = Network[self.network_id]
+    Network[self.network_id]
   end
 
 end
